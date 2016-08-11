@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fake</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+
+
+	<!---start-wrap-->
+	<div class="wrap">
+		<!---start-header-->
+		<div class="header">
+					 <div class="logo">
+			  <%= link_to (image_tag "lh.jpg", class: 'image'), root_path %>
+		  </div>
+		  <!--Pulling Awesome Font -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+				<!-- <div class="social">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/locksandhardware/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/lockandhardware" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                       <li><a href="https://www.instagram.com/locksandhardware/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li> 
+                       </ul>
+                 </div> -->
+
+
+			<div class="top-nav">
+				<ul>
+					<li class="active"><a href="/pages/landing" style="text-decoration:none;">Home</a></li>
+					<li><a href="/pages/brands" style="text-decoration:none;">Brands</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">Products</button>
+						  <div class="dropdown-content">
+						    <a href="http://www.carlislebrass.com/products/accessories">Accessories</a>
+						    <a href="http://www.carlislebrass.com/products/door-handles">Door Handles</a>
+						    <a href="http://www.carlislebrass.com/products/hinges">Hinges</a>
+						    <a href="http://www.carlislebrass.com/products/window-fittings">Window Fittings</a>
+						    <a href="http://www.carlislebrass.com/products/builders-hardware">Builders Hardware</a>
+						     <a href="http://www.carlislebrass.com/products/cylinders">Cyliners</a>
+						    <a href="http://www.carlislebrass.com/products/kitchen">Cabinet Fittings</a>
+						    <a href="http://www.carlislebrass.com/products/locks-and-latches">Locks & Latches</a>
+						     <a href="http://www.carlislebrass.com/products/door-controls">Door Controls</a>
+						    <a href="http://www.carlislebrass.com/products/door-knobs">Door knobs</a>
+						    <a href="http://www.carlislebrass.com/products/fire-seals">Fire & Seals</a>
+						    <a href="http://www.carlislebrass.com/products/bathroom-accessories-43">Bathroom Accessories</a>
+						    <a href="http://www.carlislebrass.com/products/emergency-exit">Panic & Emergency Exit</a>
+						  </div>
+						</div>
+					</li>
+					<li><a href="/pages/about" style="text-decoration:none;" >About</a></li>
+					<li><a href="/pages/knowledge" style="text-decoration:none;" >Knowledge</a></li>
+					<li><a href="/pages/contact" style="text-decoration:none;">Contact</a></li>
+				</ul>
+			</div>
+			<div class="clear"> </div>
+		</div>
+
+
+
+			
+
+
+<%= yield %>
+</body>
+</html>
