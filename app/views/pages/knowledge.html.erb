@@ -24,60 +24,120 @@
 
 
 	<div class="content">
-		<h4>Our Brands</h4>
+		<h4>Knowledge Centre</h4>
 	 <br>
 	 <br>
 
 	
 	<div class="brand-list">
-	<div class="brand-row">
-		<div class="col-md-3">
-			<figure><%= link_to (image_tag "euro.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/euro-spec" %> </figure>
+		<div class="icon-row">	
+	<div class="icon">	
+		<div class="col-md-4">
+			<figure><%= link_to (image_tag "info.png"), "http://www.carlislebrass.com/careinstruction" %> </figure>
+			<h6>Care Instructions</h6>
 		</div>	
-		<div class="col-md-3">
-		<figure><%= link_to (image_tag "de.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/deleau" %> </figure>
 	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "carlcoll.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/carlisle-brass-collections" %> </figure>
+	<div class="icon">	
+		<div class="col-md-4">
+			<figure><%= link_to (image_tag "three.png"), "http://www.carlislebrass.com/datasheet" %> </figure>
+			<h6>Datasheets</h6>
+		</div>
 	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "finger.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/fingertip" %> </figure>
-	</div>
-	</div>
-		<div class="brand-row">
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "eurol.jpg", class: 'img-thumbnail'), "http://eurolite.co.uk/" %> </figure>
-	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "lud.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/ludlow-foundriesq" %> </figure>
-	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "sero.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/serozzetta" %> </figure>
-	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "delm.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/delamain" %> </figure>
+	<div class="icon">	
+		<div class="col-md-4">
+			<figure><%= link_to (image_tag "certificate.png"), "http://www.carlislebrass.com/certificate" %> </figure>
+			<h6>DOP Certificates</h6>
+		</div>
 	</div>
 	</div>
-		<div class="brand-row">
-	<div class="col-mda-3">
-		<figure><%= link_to (image_tag "mani.jpg", class: 'img-thumbnail'), "http://www.carlislebrass.com/brands/manital" %> </figure>
+	<div class="icon-row">	
+	<div class="icon">	
+		<div class="col-md-4">
+			<figure><%= link_to (image_tag "brochure.png"), "http://www.carlislebrass.com/ebrochure" %> </figure>
+			<h6>E-Brochures</h6>
+		</div>
 	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "saheco.jpg", class: 'img-thumbnail'), "http://www.saheco.com/world/en/products/" %> </figure>
+	<div class="icon">	
+		<div class="col-md-4">
+			<figure><%= link_to (image_tag "guide.png"), "http://www.carlislebrass.com/specialist-technical-information" %> </figure>
+			<h6>Technical Information</h6>
+		</div>
 	</div>
-	<div class="col-md-3">
-		<figure><%= link_to (image_tag "yale.png", class: 'img-thumbnail'), "http://www.yale.co.uk/en/yale/couk/" %> </figure>
+	<div class="icon">		
+		<div class="col-md-4">
+			<figure><%= link_to (image_tag "project.png"), "http://www.carlislebrass.com/project" %> </figure>
+			<h6>Specification Projects</h6>
+		</div>
 	</div>
-	</div>
-
+</div>
 	</div>
 
+</div>
+</div>
+
+	<div class="footer">
+		<div class="footer-left">
+			 <%= link_to (image_tag "lhlogo.png", class: 'image'), root_path %>
+		</div>
+
+			<div class="footer-middle">
+				<div class="col-md-3">
+					 <h5><a href="/pages/brands">Our brands</a></h5>
+					<ul>	
+						<li> <p> Eurolite </p> </li>
+						<li> <p> FingerTip </p> </li>
+						<li> <p> De L'eau </p> </li>
+						<li> <p> Ludlow </p> </li>
+						<li> <p> Collection </p> </li>
+
+					</ul>
+				</div>
+				<div class="col-md-3">
+					 <h5><a href="/pages/contact">Contact</a></h5>
+					<ul>	
+						<li> <p> <p>Unit B, </p> </p> </li>
+						<li> <p> Merrywell Business Park, </p> </li>
+						<li> <p> Ballymount Rd Lower, </p> </li>
+						<li> <p> Fox-And-Geese, </p> </li>
+						<li> <p> Dublin </p> </li>
+
+					</ul>
+				</div>
+
+				<div class="col-md-3">
+					 <h5><a href="/pages/knowledge">Knowledge</a></h5>
+					<ul>	
+						<li> <p> Care Instructions </p> </li>
+						<li> <p> Datasheets </p> </li>
+						<li> <p> DOP Certificates </p> </li>
+						<li> <p> E-Brochures </p> </li>
+						<li> <p> Technical Information </p> </li>
+						<li> <p> Specification Projects </p> </li>
+
+					</ul>
+				</div>
+
+
+				<div class="col-md-3">
+				<div class="social">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/locksandhardware/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/lockandhardware" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                       <li><a href="https://www.instagram.com/locksandhardware/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li> 
+                       </ul>
+                </div>
+                </div>
+
+                </div>
 
 	
 
-</div>
-</div>
-</div>
+
+	<div class="footer-right">
+			<!-- <p>Design by Ruth </p> -->
+		</div>
+		<div class="clear"> </div> 
+	</div> 
 </body>
 </html>
 

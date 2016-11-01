@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Locks</title>
-    <%= favicon_link_tag 'lh.jpg' %>
+    <%= favicon_link_tag 'lhlogo.png' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -17,7 +17,7 @@
 		<!---start-header-->
 		<div class="header">
 					 <div class="logo">
-			  <%= link_to (image_tag "lh.jpg", class: 'image'), root_path %>
+			  <%= link_to (image_tag "lhlogo.png", class: 'image'), root_path %>
 		  </div>
 		  <!--Pulling Awesome Font -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -36,7 +36,8 @@
 				<ul>
 					<li class="active"><a href="/pages/landing" style="text-decoration:none;">Home</a></li>
 					<li><a href="/pages/brands" style="text-decoration:none;">Brands</a></li>
-					<li>
+					<li><a href="/pages/products" style="text-decoration:none;">Products</a></li>
+<!-- 					<li>
 						<div class="dropdown">
 							<button class="dropbtn">Products</button>
 						  <div class="dropdown-content">
@@ -55,7 +56,7 @@
 						    <a href="http://www.carlislebrass.com/products/emergency-exit">Panic & Emergency Exit</a>
 						  </div>
 						</div>
-					</li>
+					</li> -->
 					<li><a href="/pages/about" style="text-decoration:none;" >About</a></li>
 					<li><a href="/pages/knowledge" style="text-decoration:none;" >Knowledge</a></li>
 					<li><a href="/pages/contact" style="text-decoration:none;">Contact</a></li>
@@ -71,4 +72,56 @@
 
 <%= yield %>
 </body>
+
+		<div class="footer">
+		<div class="footer-left">
+			 <%= link_to (image_tag "lhlogo.png", class: 'image'), root_path %>
+		</div>
+
+			<div class="footer-middle">
+				<div class="col-md-4">
+					 <h5><a href="/pages/brands">Our brands</a></h5>
+					<ul>	
+						<li> <p> Eurolite </p> </li>
+						<li> <p> FingerTip </p> </li>
+						<li> <p> De L'eau </p> </li>
+						<li> <p> Ludlow </p> </li>
+						<li> <p> Collection </p> </li>
+
+					</ul>
+				</div>
+				<div class="col-md-4">
+					 <h5><a href="/pages/contact">Contact</a></h5>
+					<ul>	
+						<li> <p> <p>Unit B, </p> </p> </li>
+						<li> <p> Merrywell Business Park, </p> </li>
+						<li> <p> Ballymount Rd Lower, </p> </li>
+						<li> <p> Fox-And-Geese, </p> </li>
+						<li> <p> Dublin </p> </li>
+
+					</ul>
+				</div>
+
+
+				<div class="col-md-3">
+				<div class="social">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/locksandhardware/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/lockandhardware" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                       <li><a href="https://www.instagram.com/locksandhardware/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li> 
+                       </ul>
+                </div>
+                </div>
+
+                </div>
+
+	
+
+
+	<div class="footer-right">
+			<!-- <p>Design by Ruth </p> -->
+		</div>
+		<div class="clear"> </div> 
+	</div> 
+
 </html>

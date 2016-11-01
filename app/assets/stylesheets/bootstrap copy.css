@@ -293,8 +293,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #E74C3C;
-  text-decoration: underline;
+  color: #E6C200;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -2172,7 +2172,7 @@ fieldset[disabled] .btn-success.active {
 .open .dropdown-toggle.btn-info {
   color: #fff;
   background-color: #39b3d7;
-  border-color: #269abc;
+  border-color: #E6C200;
 }
 .btn-info:active,
 .btn-info.active,
@@ -2305,7 +2305,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #E74C3C;
+  color: #E6C200;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4162,7 +4162,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #E74C3C;
+  color: #E6C200;
   background-color: none;
   border-color: #ddd;
 }
